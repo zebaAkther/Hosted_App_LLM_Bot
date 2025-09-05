@@ -8,7 +8,7 @@ export default function App() {
   const [question, setQuestion] = useState("");
   const [chatHistory, setChatHistory] = useState([]);
   const [loading, setLoading] = useState(false);
-  const API_BASE_URL = "https://hosted-app-llm-bot-atmn.onrender.com/"; // Replace with your backend URL
+  const API_BASE_URL = "https://fastapi-groq-backend.onrender.com"; // Replace with your backend URL
   const messagesEndRef = useRef(null);
 
   useEffect(() => {
@@ -147,5 +147,17 @@ const styles = {
     fontSize: 16,
     padding: "0.5rem 1rem",
     borderRadius: 20,
-  
-  
+    border: "1px solid #ccc",
+    outline: "none",
+  },
+  button: {
+    marginLeft: 12,
+    padding: "0.5rem 1.5rem",
+    borderRadius: 20,
+    border: "none",
+    backgroundColor: "#4B9CE2",
+    color: "#fff",
+    fontSize: 16,
+    cursor: "pointer",
+  },
+};
