@@ -160,22 +160,18 @@ const styles = {
     fontSize: 16,
     cursor: "pointer",
   },
-  const styles = {
+  import bgImage from "./assets/background.jpg";
+// ...
+const styles = {
   container: {
-    maxWidth: 600,
-    margin: "2rem auto",
-    display: "flex",
-    flexDirection: "column",
-    height: "80vh",
-    fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
-    border: "1px solid #ddd",
-    borderRadius: 8,
-    boxShadow: "0 0 10px rgba(0,0,0,0.1)",
-    backgroundImage: 'https://www.freepik.com/free-vector/chatbot-concept-background-with-mobile-device_2411552.htm#fromView=keyword&page=1&position=6&uuid=bb7147cf-ad17-4ed7-8bff-3cf59472f71b&query=Chatbot', // Your image URL here
+    // other styles...
+    backgroundImage: `https://www.freepik.com/free-vector/chatbot-concept-background-with-mobile-device_2411552.htm#fromView=keyword&page=1&position=6&uuid=bb7147cf-ad17-4ed7-8bff-3cf59472f71b&query=Chatbot(${bgImage})`,
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center center"
   },
-  //...rest of your styles
+  //...rest
+
+
 
 };
