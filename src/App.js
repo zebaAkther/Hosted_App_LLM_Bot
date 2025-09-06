@@ -111,7 +111,7 @@ const styles = {
   header: {
     padding: "1rem",
     borderBottom: "1px solid #ddd",
-    backgroundColor: "#FFDB58",
+    backgroundColor: "##f7f7f7",
     textAlign: "center",
   },
   chatWindow: {
