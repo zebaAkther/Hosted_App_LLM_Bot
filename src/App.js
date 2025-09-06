@@ -121,7 +121,7 @@ const styles = {
     display: "flex",
     flexDirection: "column",
     gap: 12,
-    backgroundColor: "#E6E6FA",
+    backgroundColor: "#FFDB58",
   },
   message: {
     maxWidth: "70%",
