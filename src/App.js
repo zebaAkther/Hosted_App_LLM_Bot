@@ -160,18 +160,7 @@ const styles = {
     fontSize: 16,
     cursor: "pointer",
   },
-  import bgImage from "./assets/background.jpg";
-// ...
-const styles = {
-  container: {
-    // other styles...
-    backgroundImage: `https://www.freepik.com/free-vector/chatbot-concept-background-with-mobile-device_2411552.htm#fromView=keyword&page=1&position=6&uuid=bb7147cf-ad17-4ed7-8bff-3cf59472f71b&query=Chatbot(${bgImage})`,
-    backgroundSize: "cover",
-    backgroundRepeat: "no-repeat",
-    backgroundPosition: "center center"
-  },
-  //...rest
-
+ 
 
 
 };
