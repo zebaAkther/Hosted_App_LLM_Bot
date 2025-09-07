@@ -3,6 +3,7 @@
 # Hosted_App_LLM_Bot
 
 A simple AI-powered chatbot web application built with React.js frontend and FastAPI backend. The backend uses a Groq LLM API for natural language processing to answer user questions, with a SQLite database logging Q&A history.
+<img width="1440" height="900" alt="Screenshot 2025-09-06 at 1 14 01 PM" src="https://github.com/user-attachments/assets/392db155-6691-449f-9992-f9869709451b" />
 
 ***
 
